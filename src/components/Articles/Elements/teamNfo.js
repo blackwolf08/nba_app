@@ -4,7 +4,7 @@ import React from 'react';
 
 const TeamNfo = (props) =>{
 return(
-    <div styles={{
+    <div style={{
         border:'1px solid #c5c5c5',
         borderBottom:'0px',
         background:'#fff',
@@ -13,7 +13,7 @@ return(
         justifyContent:'center',
         alignItems:'center'
     }}>
-        <div styles={{
+        <div style={{
             background:`url('/images/teams/${props.team.logo}')`,
             width:'57px',
             height:'50px',
@@ -24,7 +24,7 @@ return(
         }}>
 
         </div>
-        <div styles={{
+        <div style={{
             flexGrow:'1',
             paddingLeft:'10px',
             fontSize:'10px',

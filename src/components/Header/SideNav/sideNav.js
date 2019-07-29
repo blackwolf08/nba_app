@@ -16,7 +16,7 @@ const SideNavigation = (props) =>{
             
             
             >
-                <SideNavItems/>
+                <SideNavItems {...props}/>
             </SideNav>
         </div>
     )
